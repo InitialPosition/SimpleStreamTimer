@@ -12,7 +12,7 @@ This is a very simple, untested, possibly bugged version of a small timer I wrot
 - Other small options
 
 ## Usage
-1. Download and run the program.
+1. Download and run the program. You can find the downloads [here](https://github.com/Syrapt0r/SimpleStreamTimer/releases).
 1. The first time you run the program, a config file is generated. You can edit this file to change the timer's behavior.
 1. Start the program again after you edited the config.
 
