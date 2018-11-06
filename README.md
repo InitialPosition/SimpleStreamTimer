@@ -31,6 +31,6 @@ textColor[blue, green, red]|The color code the countdown text should use|Integer
 chromaColor[blue, green, red]|The color code the background should use|Integer from 0 to 255
 
 ## Roadmap
-[ ] Implement Options Menu in Application
-[ ] Add more options
-[ ] Add more visual effects
+- [ ] Implement Options Menu in Application
+- [ ] Add more options
+- [ ] Add more visual effects
