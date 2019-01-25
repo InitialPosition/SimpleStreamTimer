@@ -17,5 +17,9 @@ if (!file_exists(working_directory + "config.ini")) {
 	
 	ini_write_real("config", "selectedFont", 0);
 	
+	ini_write_real("clockmode", "enabled", 0);
+	ini_write_real("clockmode", "hour", 0);
+	ini_write_real("clockmode", "minute", 0);
+	
 	ini_close();
 }

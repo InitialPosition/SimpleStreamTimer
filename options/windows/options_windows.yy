@@ -9,7 +9,7 @@
     "option_windows_copy_exe_to_dest": false,
     "option_windows_copyright_info": "(c) 2018 Syrapt0r",
     "option_windows_description_info": "",
-    "option_windows_display_cursor": false,
+    "option_windows_display_cursor": true,
     "option_windows_display_name": "StreamTimer",
     "option_windows_enable_steam": false,
     "option_windows_executable_name": "${project_name}",
@@ -31,7 +31,7 @@
     "option_windows_version": {
         "build": 0,
         "major": 1,
-        "minor": 0,
+        "minor": 2,
         "revision": 0
     },
     "option_windows_vsync": false

@@ -42,7 +42,7 @@
             "Key": "047267ce-0c03-4588-98ad-d82e23af9222",
             "Value": {
                 "id": "9e286f16-9af1-4e9e-a190-c346dd794970",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_timer\\rm_timer.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -103,10 +103,26 @@
             }
         },
         {
+            "Key": "26d577e7-26a8-44f1-b2f0-8a6c10857bf3",
+            "Value": {
+                "id": "db88f3a7-eaf5-4ead-8df0-fb34c72c572e",
+                "resourcePath": "objects\\obj_mainMenu_startTimer\\obj_mainMenu_startTimer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2904c266-dc1d-484b-83e0-2108e8f0601a",
             "Value": {
                 "id": "86995a0b-4411-4370-81e9-2e502476d7d6",
                 "resourcePath": "views\\2904c266-dc1d-484b-83e0-2108e8f0601a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2a30f6f2-e663-4067-a5da-20b8aa46353b",
+            "Value": {
+                "id": "2a74c7dd-d857-47c1-8e28-c92560da3ce9",
+                "resourcePath": "views\\2a30f6f2-e663-4067-a5da-20b8aa46353b.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -116,6 +132,14 @@
                 "id": "691e71b9-af25-44cd-a287-4fecc3c7e950",
                 "resourcePath": "views\\2f971da8-0259-4ed5-b511-ed412cc86d46.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "371286c6-3624-4772-ad8a-a1d17f96cce6",
+            "Value": {
+                "id": "634a7285-7bac-41f7-aa86-381054e70c5d",
+                "resourcePath": "objects\\obj_mainMenu_editConfig\\obj_mainMenu_editConfig.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -151,14 +175,6 @@
             }
         },
         {
-            "Key": "4ab89425-39dd-439b-89f9-7d75adcca4b2",
-            "Value": {
-                "id": "d97c122a-0d5f-44ed-a526-3cd6c1a04143",
-                "resourcePath": "objects\\configCreatedNote\\configCreatedNote.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "53ebcf8d-62d3-446a-86dc-d25d19bba96c",
             "Value": {
                 "id": "3f974467-e7c1-465c-abfa-7db3e8545f78",
@@ -175,11 +191,35 @@
             }
         },
         {
+            "Key": "647c85d4-f877-466d-a383-96c2463c9b0a",
+            "Value": {
+                "id": "e60afaf8-5078-4fc7-85db-838a7a5e1015",
+                "resourcePath": "objects\\obj_mainMenuController\\obj_mainMenuController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6f6d95de-15e5-432e-94a1-140f62e971c3",
+            "Value": {
+                "id": "f821896c-6864-407f-a187-ef93472704e7",
+                "resourcePath": "objects\\obj_config_textColorSliderTriplet\\obj_config_textColorSliderTriplet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "70e3b825-e98c-44f8-8251-3c704e1f6b88",
             "Value": {
                 "id": "8d92c25b-028e-44cd-8700-cb6c86dfd971",
-                "resourcePath": "rooms\\rm_configCreated\\rm_configCreated.yy",
+                "resourcePath": "rooms\\rm_config\\rm_config.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "73960587-d8b9-4355-b983-44e1e680dd5a",
+            "Value": {
+                "id": "e3ee9603-5fed-4c86-b0c8-1d2d5667157e",
+                "resourcePath": "sprites\\spr_menuEntry\\spr_menuEntry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -188,6 +228,30 @@
                 "id": "91fe140c-42cd-4615-bbb2-3942e463858c",
                 "resourcePath": "options\\html5\\options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "7d29648d-a372-42a8-aa0a-ba96d315c529",
+            "Value": {
+                "id": "9e124b3c-a0d0-4ff0-8efa-6279ee2dd98b",
+                "resourcePath": "objects\\obj_configCreated\\obj_configCreated.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8ec97118-cfb0-40fc-875b-32091043c92c",
+            "Value": {
+                "id": "9a251f33-2d6c-49e4-bfca-27cc2ee20660",
+                "resourcePath": "rooms\\rm_mainMenu\\rm_mainMenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9a94a974-f9fc-4f1e-a5b2-8aab3e5409fe",
+            "Value": {
+                "id": "9e2bd734-f89c-4a98-ac60-573a17c78cc0",
+                "resourcePath": "objects\\obj_configController\\obj_configController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -247,6 +311,30 @@
             }
         },
         {
+            "Key": "dfc67242-2ca3-44d7-8d67-8aca113a46c0",
+            "Value": {
+                "id": "d2439c1e-0002-4b23-8c7a-4005aab886de",
+                "resourcePath": "views\\dfc67242-2ca3-44d7-8d67-8aca113a46c0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f1aa0b06-fc01-423f-969f-9ef3bfb8ef4a",
+            "Value": {
+                "id": "44a10cea-68bd-4dbf-99ea-30d50a52ee46",
+                "resourcePath": "objects\\obj_config_textC_r\\obj_config_textC_r.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f31ce8f2-5081-4369-a726-1f49c347fa42",
+            "Value": {
+                "id": "7cf1d1a6-f4b1-4040-8fd7-c35cd5d4b533",
+                "resourcePath": "views\\f31ce8f2-5081-4369-a726-1f49c347fa42.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "ba3023db-2f30-41b1-a002-87be9900ca01",
@@ -266,7 +354,7 @@
             "Key": "fd1a7fbf-2c2f-4ce5-9633-38a303c26e44",
             "Value": {
                 "id": "ba174cb1-72ba-4058-b3fa-793f365cc714",
-                "resourcePath": "objects\\timer\\timer.yy",
+                "resourcePath": "objects\\obj_timer\\obj_timer.yy",
                 "resourceType": "GMObject"
             }
         }

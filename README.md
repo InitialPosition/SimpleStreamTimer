@@ -29,8 +29,11 @@ startSeconds|The seconds the timer should start on|Positive integer
 startMinutes|The minutes the timer should start on|Positive integer
 textColor[blue, green, red]|The color code the countdown text should use|Integer from 0 to 255
 chromaColor[blue, green, red]|The color code the background should use|Integer from 0 to 255
+clockmode - enabled|If enabled, the countdown runs in clock mode: The timer automatically counts to the provided time|0: Disabled, 1: Enabled
+clockmode - hour|The hour to count to in clock mode|Integer from 0 to 23
+clockmode - minute|The minute to count to in clock mode|Integer from 0 to 59
 
 ## Roadmap
 - [ ] Implement Options Menu in Application
-- [ ] Add more options
+- [X] Add more options
 - [ ] Add more visual effects
